@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ISC Aprende +: recursos, tendencias y orientación para estudiantes de Ingeniería en Sistemas Computacionales.">
+  <meta name="theme-color" content="#071a33">
+  <title>ISC Aprende + | Tecnología para aprender y crecer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="ISC Aprende más, inicio">
+      <span class="brand-mark">ISC<span>+</span></span>
+      <span class="brand-name">ISC <strong>Aprende +</strong><small>Ingeniería en Sistemas Computacionales</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
+      <a class="nav-link active" href="#inicio">Inicio</a>
+      <a class="nav-link" href="#sobre-nosotros">Sobre nosotros</a>
+      <a class="nav-link" href="#servicios">Servicios</a>
+      <a class="nav-link" href="#habilidades">Habilidades</a>
+      <a class="nav-link" href="#python">Python</a>
+      <a class="nav-link" href="#tendencias">Tendencias</a>
+      <a class="nav-link" href="#entrevista">Entrevista</a>
+      <a class="nav-cta" href="#contacto">Contacto <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Aprende · Explora · Construye</p>
+        <h1>El futuro se <span>programa</span> con conocimiento.</h1>
+        <p class="hero-description">Un espacio para descubrir el mundo de la Ingeniería en Sistemas Computacionales, fortalecer tus habilidades y mantenerte al día con la tecnología.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#tendencias">Explorar tendencias <span>→</span></a>
+          <a class="button button-ghost" href="#sobre-nosotros">Conócenos</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> Recursos tecnológicos con enfoque práctico y accesible.</div>
+      </div>
+      <div class="hero-art" aria-label="Ilustración abstracta de tecnología">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-glow"></div>
+        <div class="code-card">
+          <div class="code-top"><i></i><i></i><i></i><span>aprende_mas.js</span></div>
+          <div class="code-lines">
+            <p><b>01</b> <span class="code-purple">const</span> futuro = <span class="code-green">"tuyo"</span>;</p>
+            <p><b>02</b> <span class="code-purple">function</span> <span class="code-blue">aprender</span>() {</p>
+            <p><b>03</b> &nbsp; return <span class="code-green">crecer</span>();</p>
+            <p><b>04</b> }</p>
+            <p><b>05</b> <span class="code-blue">aprender</span>(); <span class="cursor"></span></p>
+          </div>
+          <div class="code-footer"><span>● SISTEMA EN LÍNEA</span><span>ISC +</span></div>
+        </div>
+        <div class="floating-chip chip-top">⌘ &nbsp; Tecnología</div>
+        <div class="floating-chip chip-bottom">01 / 06 &nbsp; <span>Ideas en acción</span></div>
+      </div>
+      <a class="scroll-cue" href="#sobre-nosotros"><span></span> Desliza para descubrir</a>
+    </section>
+
+    <section class="intro-section section-shell section-pad" id="sobre-nosotros">
+      <div class="section-heading">
+        <p class="eyebrow">01 / SOBRE NOSOTROS</p>
+        <h2>Aprender tecnología,<br><span>sin complicaciones.</span></h2>
+      </div>
+      <div class="intro-content">
+        <p class="lead">Somos un espacio de aprendizaje sobre Ingeniería en Sistemas Computacionales.</p>
+        <p>Compartimos información, recursos y conocimientos tecnológicos para estudiantes y personas interesadas en el área, con un enfoque práctico, claro y accesible.</p>
+        <div class="value-row">
+          <div><strong>01</strong><span>Aprendizaje<br>continuo</span></div>
+          <div><strong>02</strong><span>Conocimiento<br>accesible</span></div>
+          <div><strong>03</strong><span>Visión hacia<br>el futuro</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services-section section-pad" id="servicios">
+      <div class="section-shell">
+        <div class="section-heading heading-row">
+          <div><p class="eyebrow">02 / SERVICIOS</p><h2>Ideas que se convierten<br>en <span>soluciones.</span></h2></div>
+          <p class="heading-aside">Servicios tecnológicos y asesorías orientados a estudiantes, emprendedores y pequeños negocios. Disponibilidad según el alcance de cada proyecto.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-number">01</span><div class="service-icon">⌘</div><h3>Diseño de páginas web</h3><p>Creación de páginas web con HTML, CSS y JavaScript, cuidando la estructura, el diseño y la experiencia de usuario.</p><span class="service-tag">HTML · CSS · JS</span></article>
+          <article class="service-card"><span class="service-number">02</span><div class="service-icon">⌁</div><h3>Soporte técnico básico</h3><p>Orientación para identificar y resolver problemas comunes de equipos y herramientas digitales.</p><span class="service-tag">Asistencia técnica</span></article>
+          <article class="service-card"><span class="service-number">03</span><div class="service-icon">✳</div><h3>Asesorías de informática</h3><p>Apoyo para comprender conceptos, herramientas y temas relacionados con informática y tecnología.</p><span class="service-tag">Acompañamiento</span></article>
+          <article class="service-card"><span class="service-number">04</span><div class="service-icon">{ }</div><h3>Programación básica</h3><p>Orientación en lógica de programación y primeros pasos con lenguajes y ejercicios prácticos.</p><span class="service-tag">Lógica · Código</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section section-shell section-pad" id="habilidades">
+      <div class="section-heading">
+        <p class="eyebrow">03 / HABILIDADES</p>
+        <h2>Conocimientos que<br><span>abren posibilidades.</span></h2>
+        <p class="section-intro">Explora áreas profesionales y selecciona los términos subrayados para consultar su significado en el glosario.</p>
+      </div>
+      <div class="skill-layout">
+        <div class="skill-list">
+          <article class="skill-item"><span class="skill-icon">⌘</span><div><h3>Desarrollo de software</h3><p>Construcción de aplicaciones y soluciones digitales con <a href="#glosario" data-term="Frontend">Frontend</a>, <a href="#glosario" data-term="Backend">Backend</a>, <a href="#glosario" data-term="APIs">APIs</a> y bases de datos como <a href="#glosario" data-term="SQL">SQL</a>, <a href="#glosario" data-term="PostgreSQL">PostgreSQL</a> y <a href="#glosario" data-term="MongoDB">MongoDB</a>.</p></div></article>
+          <article class="skill-item"><span class="skill-icon">⌁</span><div><h3>Desarrollo web</h3><p>Creación de interfaces y aplicaciones con <a href="#glosario" data-term="JavaScript">JavaScript</a>, <a href="#glosario" data-term="TypeScript">TypeScript</a>, <a href="#glosario" data-term="React">React</a> y <a href="#glosario" data-term="Vue">Vue</a>.</p></div></article>
+          <article class="skill-item"><span class="skill-icon">◈</span><div><h3>Datos e inteligencia artificial</h3><p>Procesamiento de información, <a href="#glosario" data-term="Machine Learning">Machine Learning</a> y herramientas como <a href="#glosario" data-term="Python">Python</a>.</p></div></article>
+          <article class="skill-item"><span class="skill-icon">▦</span><div><h3>Pruebas y calidad de software</h3><p>Validación de aplicaciones mediante <a href="#glosario" data-term="Selenium">Selenium</a>, <a href="#glosario" data-term="JMeter">JMeter</a>, <a href="#glosario" data-term="Appium">Appium</a> y <a href="#glosario" data-term="Postman">Postman</a>.</p></div></article>
+          <article class="skill-item"><span class="skill-icon">⌬</span><div><h3>Infraestructura y redes</h3><p>Administración de redes, <a href="#glosario" data-term="Firewall">Firewall</a>, <a href="#glosario" data-term="Routing">Routing</a> y servicios en la nube o <a href="#glosario" data-term="Cloud">Cloud</a>.</p></div></article>
+          <article class="skill-item"><span class="skill-icon">▤</span><div><h3>Sistemas empresariales</h3><p>Uso de soluciones de gestión como <a href="#glosario" data-term="CRM">CRM</a>, <a href="#glosario" data-term="ERP">ERP</a> y <a href="#glosario" data-term="Odoo">Odoo</a>.</p></div></article>
+        </div>
+        <aside class="glossary-panel" id="glosario">
+          <div class="glossary-head"><div><p class="eyebrow">CONSULTA RÁPIDA</p><h3>Mini glosario</h3></div><span class="glossary-symbol">Aa</span></div>
+          <label class="search-label" for="glossarySearch">Busca un concepto</label>
+          <input id="glossarySearch" class="glossary-search" type="search" placeholder="Ej. Python, API, Cloud...">
+          <div class="glossary-list" id="glossaryList">
+            <article class="glossary-entry" data-name="SQL"><h4>SQL</h4><p>Lenguaje utilizado para consultar, insertar, actualizar y administrar datos en bases de datos relacionales.</p></article>
+            <article class="glossary-entry" data-name="PostgreSQL"><h4>PostgreSQL</h4><p>Sistema gestor de bases de datos relacional y de código abierto.</p></article>
+            <article class="glossary-entry" data-name="MongoDB"><h4>MongoDB</h4><p>Base de datos NoSQL orientada a documentos que almacena información en estructuras similares a JSON.</p></article>
+            <article class="glossary-entry" data-name="Frontend"><h4>Frontend</h4><p>Parte de una aplicación con la que interactúa directamente la persona usuaria.</p></article>
+            <article class="glossary-entry" data-name="Backend"><h4>Backend</h4><p>Lógica del servidor, procesamiento de datos y servicios que funcionan detrás de una aplicación.</p></article>
+            <article class="glossary-entry" data-name="APIs"><h4>APIs</h4><p>Interfaces que permiten que diferentes programas se comuniquen e intercambien información.</p></article>
+            <article class="glossary-entry" data-name="SaaS"><h4>SaaS</h4><p>Modelo de software que se utiliza a través de internet, generalmente mediante una suscripción.</p></article>
+            <article class="glossary-entry" data-name="Cloud"><h4>Cloud</h4><p>Uso de servidores y recursos informáticos a través de internet.</p></article>
+            <article class="glossary-entry" data-name="Python"><h4>Python</h4><p>Lenguaje de programación de propósito general, conocido por su sintaxis legible y sus múltiples bibliotecas.</p></article>
+            <article class="glossary-entry" data-name="JavaScript"><h4>JavaScript</h4><p>Lenguaje que permite crear interactividad y lógica en sitios y aplicaciones web.</p></article>
+            <article class="glossary-entry" data-name="TypeScript"><h4>TypeScript</h4><p>Lenguaje basado en JavaScript que incorpora tipado estático.</p></article>
+            <article class="glossary-entry" data-name="React"><h4>React</h4><p>Biblioteca de JavaScript para construir interfaces de usuario mediante componentes.</p></article>
+            <article class="glossary-entry" data-name="Vue"><h4>Vue</h4><p>Framework progresivo de JavaScript para desarrollar interfaces web.</p></article>
+            <article class="glossary-entry" data-name="Machine Learning"><h4>Machine Learning</h4><p>Área de la inteligencia artificial que permite a los sistemas identificar patrones a partir de datos.</p></article>
+            <article class="glossary-entry" data-name="JSON"><h4>JSON</h4><p>Formato ligero de texto para representar e intercambiar datos.</p></article>
+            <article class="glossary-entry" data-name="HTTP"><h4>HTTP / HTTPS</h4><p>Protocolos de comunicación usados para transferir información en la web; HTTPS añade cifrado mediante TLS.</p></article>
+            <article class="glossary-entry" data-name="Postman"><h4>Postman</h4><p>Herramienta para diseñar, probar y documentar solicitudes a APIs.</p></article>
+            <article class="glossary-entry" data-name="Selenium"><h4>Selenium</h4><p>Herramienta de automatización para probar aplicaciones web en navegadores.</p></article>
+            <article class="glossary-entry" data-name="JMeter"><h4>JMeter</h4><p>Herramienta para realizar pruebas de rendimiento y carga.</p></article>
+            <article class="glossary-entry" data-name="Appium"><h4>Appium</h4><p>Herramienta de automatización de pruebas para aplicaciones móviles.</p></article>
+            <article class="glossary-entry" data-name="Firewall"><h4>Firewall</h4><p>Sistema que controla el tráfico de red de acuerdo con reglas de seguridad.</p></article>
+            <article class="glossary-entry" data-name="Routing"><h4>Routing</h4><p>Proceso de seleccionar rutas para que los datos lleguen a su destino en una red.</p></article>
+            <article class="glossary-entry" data-name="Port forwarding"><h4>Port forwarding</h4><p>Configuración que dirige conexiones recibidas en un puerto hacia un dispositivo o servicio interno.</p></article>
+            <article class="glossary-entry" data-name="TI"><h4>TI</h4><p>Tecnologías de la Información: recursos y sistemas para crear, procesar, almacenar y comunicar información.</p></article>
+            <article class="glossary-entry" data-name="CRM"><h4>CRM</h4><p>Sistema para administrar relaciones, interacciones y datos de clientes.</p></article>
+            <article class="glossary-entry" data-name="ERP"><h4>ERP</h4><p>Sistema que integra procesos y operaciones de distintas áreas de una organización.</p></article>
+            <article class="glossary-entry" data-name="SLA"><h4>SLA</h4><p>Acuerdo de nivel de servicio que establece compromisos medibles entre proveedor y cliente.</p></article>
+            <article class="glossary-entry" data-name="Odoo"><h4>Odoo</h4><p>Conjunto de aplicaciones empresariales para gestionar procesos como ventas, inventario y contabilidad.</p></article>
+          </div>
+          <p class="no-results" id="noResults" hidden>No se encontraron conceptos con esa búsqueda.</p>
+        </aside>
+      </div>
+        <div class="future-heading" id="perfiles">
+          <div><h3>Ciclo de vida y perfiles profesionales</h3></div>
+          <p>Los puestos del material original ilustran cómo se aplican las habilidades de ISC en cada etapa de un proyecto.</p>
+        </div>
+        <div class="lifecycle-carousel" aria-label="Etapas del ciclo de vida">
+          <div aria-live="polite">
+            <figure><img src="imagenes/etapa-1.png" width="1000" height="370" alt="Etapa 1 de 6. Análisis. Identifica necesidades y define requisitos."></figure>
+            <figure hidden><img src="imagenes/etapa-2.png" width="1000" height="370" alt="Etapa 2 de 6. Diseño. Diseña la estructura y la solución."></figure>
+            <figure hidden><img src="imagenes/etapa-3.png" width="1000" height="370" alt="Etapa 3 de 6. Desarrollo. Construye e integra las funcionalidades."></figure>
+            <figure hidden><img src="imagenes/etapa-4.png" width="1000" height="370" alt="Etapa 4 de 6. Pruebas. Verifica resultados y corrige fallos."></figure>
+            <figure hidden><img src="imagenes/etapa-5.png" width="1000" height="370" alt="Etapa 5 de 6. Implementación. Pon la solución en funcionamiento."></figure>
+            <figure hidden><img src="imagenes/etapa-6.png" width="1000" height="370" alt="Etapa 6 de 6. Mantenimiento. Supervisa, corrige y mejora el sistema."></figure>
+          </div>
+          <div class="carousel-controls">
+            <button type="button" data-step="-1">Anterior</button>
+            <span class="carousel-position" aria-live="polite">1 de 6</span>
+            <button type="button" data-step="1">Siguiente</button>
+          </div>
+        </div>
+        <p>Los sueldos son montos mensuales de las vacantes citadas en el material original.</p>
+        <ol class="future-jobs profile-list">
+          <li class="future-job"><span aria-hidden="true">1</span><div>
+            <h4>Análisis · Analista de mesa de control</h4>
+            <p class="profile-pay">$14,000 MXN al mes</p>
+            <p>Atiende clientes y gestiona varias incidencias bajo presión. Prioriza solicitudes según su urgencia, diagnostica problemas, documenta la atención y da seguimiento hasta el cierre.</p>
+            <p><strong>Herramientas y habilidades destacadas.</strong> Windows, redes y telecomunicaciones, plataformas de tickets, monitoreo y soporte remoto, reportes técnicos, acuerdos de nivel de servicio (SLA) y Odoo.</p>
+          </div></li>
+          <li class="future-job"><span aria-hidden="true">2</span><div>
+            <h4>Diseño · Becario de ciencia de datos</h4>
+            <p class="profile-pay">$7,500 MXN al mes</p>
+            <p>Recolecta y analiza datos, identifica patrones y apoya la mejora continua. Requiere capacidad analítica para transformar los datos en información útil.</p>
+            <p><strong>Herramientas y habilidades destacadas.</strong> SQL para consultar y organizar la información.</p>
+          </div></li>
+          <li class="future-job"><span aria-hidden="true">3</span><div>
+            <h4>Desarrollo · Desarrollador full stack</h4>
+            <p class="profile-pay">$22,000–24,000 MXN al mes</p>
+            <p>Construye interfaces, paneles, APIs y servicios de servidor. Integra plataformas SaaS y sistemas internos, mantiene flujos de datos y atiende problemas de conectividad, rendimiento y disponibilidad. Colabora en infraestructura en la nube y aplica documentación, control de versiones, pruebas, seguridad y metodologías ágiles.</p>
+            <p><strong>Herramientas y habilidades destacadas.</strong> Python, microservicios, JavaScript o TypeScript, React o Vue, SQL, PostgreSQL y MongoDB. También se valora el inglés técnico y la integración de APIs, modelos predictivos y generativos, automatizaciones y grandes volúmenes de datos.</p>
+          </div></li>
+          <li class="future-job"><span aria-hidden="true">4</span><div>
+            <h4>Pruebas · Tester de software</h4>
+            <p class="profile-pay">$18,000 MXN al mes</p>
+            <p>Identifica requisitos, prepara y ejecuta pruebas manuales y automatizadas en web y móvil. Verifica funcionalidad, estrés, rendimiento y escalabilidad. Registra fallos y comunica resultados a desarrollo y soporte para reducir riesgos y cumplir plazos en varios proyectos. Requiere atención al detalle, comunicación y disponibilidad de horario.</p>
+            <p><strong>Herramientas y habilidades destacadas.</strong> Selenium, JMeter, Appium y Postman. Validación de APIs REST, JSON, HTTP/HTTPS y autenticación básica.</p>
+          </div></li>
+          <li class="future-job"><span aria-hidden="true">5</span><div>
+            <h4>Implementación · Implementador de CRM y ERP</h4>
+            <p class="profile-pay">$11,500–15,000 MXN al mes</p>
+            <p>Analiza procesos y necesidades del cliente, propone soluciones, organiza compromisos y fechas, capacita a usuarios y da seguimiento a problemas. Coordina la puesta en marcha con desarrollo, soporte, ventas y dirección de proyectos. Requiere comunicación, capacidad de enseñanza y adaptación a distintos sectores.</p>
+            <p><strong>Herramientas y habilidades destacadas.</strong> Funcionamiento y configuración de sistemas CRM y ERP.</p>
+          </div></li>
+          <li class="future-job"><span aria-hidden="true">6</span><div>
+            <h4>Mantenimiento · Soporte técnico de sistemas</h4>
+            <p class="profile-pay">$18,000–20,000 MXN al mes</p>
+            <p>Configura, diagnostica y realiza mantenimiento preventivo y correctivo de equipos y periféricos. Respalda y recupera información, atiende sistemas de tráfico y pedimentos, instala o revisa cableado estructurado y diagnostica conectividad en capas 1 a 3. Monitorea cámaras CCTV, revisa terminales de acceso y da seguimiento a solicitudes de distintas sucursales.</p>
+            <p><strong>Herramientas y habilidades destacadas.</strong> Firewall, enrutamiento, redirección de puertos, políticas de red y soporte general de TI.</p>
+          </div></li>
+        </ol>
+    </section>
+
+    <section class="section-shell section-pad python-section" id="python">
+      <div class="section-heading">
+        <h2>Python y <span>aprendizaje automático</span></h2>
+        <p class="section-intro">Entrena una red neuronal sencilla para aprender la relación entre pulgadas y milímetros a partir de ejemplos etiquetados. Es un ejercicio de regresión supervisada.</p>
+      </div>
+      <h3>Convierte pulgadas a milímetros con TensorFlow</h3>
+      <ol class="python-captures">
+        <li><img src="imagenes/python-1.png" alt="Importación de TensorFlow y NumPy" loading="lazy"></li>
+        <li><img src="imagenes/python-2.png" alt="Datos de ejemplo en pulgadas y milímetros" loading="lazy"></li>
+        <li><img src="imagenes/python-3.png" alt="Creación de una capa densa y un modelo secuencial" loading="lazy"></li>
+        <li><img src="imagenes/python-4.png" alt="Compilación con Adam y error cuadrático medio" loading="lazy"></li>
+        <li><img src="imagenes/python-5.png" alt="Entrenamiento durante mil épocas" loading="lazy"></li>
+        <li><img src="imagenes/python-6.png" alt="Gráfica de pérdida durante el entrenamiento" loading="lazy"></li>
+        <li><img src="imagenes/python-7.png" alt="Predicción para una entrada de 24 pulgadas" loading="lazy"></li>
+      </ol>
+      <p>La fórmula exacta da 609.60 mm para 24 pulgadas y 762.00 mm para 30 pulgadas. La red aprende una aproximación, así que compara el error de ambas predicciones con esos valores.</p>
+      <p>El ejercicio adapta el procedimiento del video al conjunto de datos de las capturas. <a href="https://www.youtube.com/watch?v=iX_on3VxZzk">Tu primera red neuronal en Python y TensorFlow · Ringa Tech</a></p>
+
+      <h3>Librerías de Python para IA generativa</h3>
+      <p>Los modelos generativos producen contenido como texto o imágenes. Estas librerías cubren distintas partes del trabajo.</p>
+      <dl class="generative-libraries">
+        <dt>PyTorch y TensorFlow/Keras</dt>
+        <dd>Proporcionan tensores, cálculo de gradientes y capas para crear y entrenar modelos. En el ejercicio, Keras define y entrena la red dentro de TensorFlow. <a href="https://docs.pytorch.org/docs/stable/index.html">PyTorch</a> · <a href="https://keras.io/">Keras</a></dd>
+        <dt>Transformers</dt>
+        <dd>Permite cargar modelos y tokenizadores preentrenados para tareas como generar texto o código a partir de una instrucción. <a href="https://huggingface.co/docs/transformers/index">Documentación de Transformers</a></dd>
+        <dt>Diffusers</dt>
+        <dd>Ofrece flujos de trabajo para usar modelos de difusión, por ejemplo para crear una imagen a partir de una descripción. <a href="https://huggingface.co/docs/diffusers/index">Documentación de Diffusers</a></dd>
+        <dt>Datasets y PEFT</dt>
+        <dd>Datasets ayuda a cargar y preparar ejemplos. PEFT permite adaptar un modelo preentrenado a una tarea específica actualizando una pequeña parte de sus parámetros, por ejemplo con LoRA. <a href="https://huggingface.co/docs/datasets/index">Datasets</a> · <a href="https://huggingface.co/docs/peft/index">PEFT</a></dd>
+      </dl>
+      <p>NumPy y Matplotlib también sirven como apoyo. NumPy prepara los arreglos de datos y Matplotlib permite visualizar métricas como la pérdida durante el entrenamiento.</p>
+    </section>
+
+
+    <section class="trends-section section-pad" id="tendencias">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">04 / TENDENCIAS TECNOLÓGICAS</p>
+          <h2>La tecnología evoluciona.<br><span>Las profesiones también.</span></h2>
+          <p class="section-intro">Este apartado retoma el enfoque del material original: tendencias tecnológicas, su impacto en la sociedad y los trabajos que pueden surgir a partir de los cambios científicos y digitales.</p>
+        </div>
+        <article class="gartner-panel">
+          <div class="gartner-label"><span class="status-dot"></span> ANÁLISIS DE TENDENCIAS</div>
+          <div class="gartner-copy">
+            <p class="eyebrow">GARTNER Y EL PANORAMA TECNOLÓGICO</p>
+            <h3>Comprender las tendencias para anticipar el cambio.</h3>
+            <p>Las tendencias tecnológicas estratégicas permiten observar hacia dónde se dirigen las organizaciones y qué capacidades pueden necesitar. Para quienes estudian Ingeniería en Sistemas Computacionales, revisarlas ayuda a identificar áreas de aprendizaje, especialización y desarrollo profesional.</p>
+          </div>
+          <div class="gartner-orbit" aria-hidden="true"><span>G</span><i></i><i></i><i></i></div>
+        </article>
+        <div class="future-heading"><div><h3>Predicciones estratégicas de Gartner</h3></div><p>El material de Canva reúne proyecciones publicadas en septiembre de 2026 sobre la adopción práctica de la inteligencia artificial.</p></div>
+        <ol class="future-jobs">
+          <li class="future-job"><span>01</span><div><h4>Agentes de IA y servicios públicos</h4><p>Los agentes podrían aumentar la demanda al detectar trámites pertinentes y presentar solicitudes en nombre de los usuarios.</p></div></li>
+          <li class="future-job"><span>02</span><div><h4>FinOps para la inferencia</h4><p>Gartner prevé que en 2028 el 60 % de las empresas del Global 500 optimizará en tiempo real los costos de ejecutar modelos de IA.</p></div></li>
+          <li class="future-job"><span>03</span><div><h4>Aplicaciones temporales</h4><p>Para 2029, Gartner proyecta que el 80 % de las aplicaciones nuevas se creará para necesidades de corta duración.</p></div></li>
+          <li class="future-job"><span>04</span><div><h4>Demanda energética</h4><p>El consumo eléctrico de la IA impulsaría inversiones en generación, almacenamiento y gestión de energía.</p></div></li>
+          <li class="future-job"><span>05</span><div><h4>Seguros y gobernanza</h4><p>Las aseguradoras podrían influir en los controles técnicos y la supervisión de riesgos ante posibles responsabilidades por el uso de IA.</p></div></li>
+          <li class="future-job"><span>06</span><div><h4>Productos modulares</h4><p>Para 2029, Gartner proyecta que el 25 % de las empresas del Global 500 innovará con ofertas modulares basadas en IA.</p></div></li>
+          <li class="future-job"><span>07</span><div><h4>Costo y valor de la IA</h4><p>El 60 % de las organizaciones que implanten IA asignaría a una función específica la tarea de relacionar su costo total con el valor generado.</p></div></li>
+          <li class="future-job"><span>08</span><div><h4>IA en el mundo físico</h4><p>Para 2030, Gartner prevé que el 80 % de los trabajadores de primera línea en empresas internacionales recibirá apoyo de sistemas como robots, drones o vehículos autónomos.</p></div></li>
+          <li class="future-job"><span>09</span><div><h4>Seguridad y consumo de tokens</h4><p>Los servicios que usan IA tendrán que vigilar el consumo de tokens para detectar usos anómalos que disparen los costos.</p></div></li>
+          <li class="future-job"><span>10</span><div><h4>Rendición de cuentas</h4><p>Para 2030, Gartner prevé que el 80 % de las empresas del Global 500 asignará a su responsable de TI o IA la custodia de las evidencias sobre el uso de IA.</p></div></li>
+        </ol>
+        <p><a href="https://www.gartner.com/en/newsroom/press-releases/2026-09-15-gartner-unveils-top-strategic-predictions-for-2027-and-beyond">Ver la publicación de Gartner</a></p>
+
+        <div class="future-heading">
+          <div><p class="eyebrow">TRABAJOS DEL FUTURO</p><h3>12 profesiones que podrían ganar relevancia</h3></div>
+          <p>El video que se encontraba enlazado en el sitio original explora ocupaciones relacionadas con nuevas tecnologías, necesidades sociales y cambios en la industria.</p>
+        </div>
+        <div class="future-jobs">
+          <article class="future-job"><span>01</span><div><h4>Diseñador de partes del cuerpo humano</h4><p>Aplicación de impresión 3D al diseño de prótesis y posibles soluciones médicas personalizadas.</p></div><small>Impresión 3D · Salud</small></article>
+          <article class="future-job"><span>02</span><div><h4>Desarrollador de robots e inteligencia artificial</h4><p>Diseño, programación y mantenimiento de sistemas inteligentes y procesos automatizados.</p></div><small>Robótica · IA</small></article>
+          <article class="future-job"><span>03</span><div><h4>Especialista en clonación veterinaria</h4><p>Perfil vinculado a los avances biotecnológicos y a aplicaciones especializadas en medicina veterinaria.</p></div><small>Biotecnología</small></article>
+          <article class="future-job"><span>04</span><div><h4>Cocinero de insectos</h4><p>Propuesta relacionada con nuevas fuentes de alimentación y alternativas ante retos de sostenibilidad.</p></div><small>Alimentación · Sostenibilidad</small></article>
+          <article class="future-job"><span>05</span><div><h4>Especialista en ciberseguridad</h4><p>Protección de sistemas, redes y datos personales y empresariales frente a amenazas digitales.</p></div><small>Seguridad informática</small></article>
+          <article class="future-job"><span>06</span><div><h4>Desarrollador de realidad virtual y aumentada</h4><p>Creación de experiencias inmersivas para educación, entretenimiento, capacitación y visualización.</p></div><small>RV · RA</small></article>
+          <article class="future-job"><span>07</span><div><h4>Especialista en deportes electrónicos</h4><p>Participación en la industria de los e-sports, desde la gestión y producción hasta el análisis y desarrollo tecnológico.</p></div><small>E-sports · Tecnología</small></article>
+          <article class="future-job"><span>08</span><div><h4>Personal especializado en el cuidado de adultos mayores</h4><p>Atención apoyada por herramientas tecnológicas ante los cambios demográficos y el aumento de la esperanza de vida.</p></div><small>Salud · Tecnología asistiva</small></article>
+          <article class="future-job"><span>09</span><div><h4>Especialista en reutilización de desechos</h4><p>Uso de procesos y tecnologías para transformar residuos en materiales que puedan aprovecharse nuevamente.</p></div><small>Innovación sostenible</small></article>
+          <article class="future-job"><span>10</span><div><h4>Especialista en blockchain</h4><p>Desarrollo y aplicación de tecnologías de registro distribuido para distintos sectores.</p></div><small>Blockchain</small></article>
+          <article class="future-job"><span>11</span><div><h4>Ingeniero de impresión 3D de edificaciones</h4><p>Aplicación de fabricación aditiva a procesos de diseño y construcción de estructuras.</p></div><small>Construcción · Impresión 3D</small></article>
+          <article class="future-job"><span>12</span><div><h4>Analista de nuevas tecnologías</h4><p>Evaluación de herramientas emergentes para determinar su utilidad y posible implementación en empresas e instituciones.</p></div><small>Evaluación tecnológica</small></article>
+        </div>
+        <div class="isc-outlook">
+          <p class="eyebrow">¿QUÉ TIENE QUE VER CON ISC?</p>
+          <h3>Áreas en las que puede desarrollarse un egresado.</h3>
+          <p>Varias de estas ocupaciones se relacionan directamente con la Ingeniería en Sistemas Computacionales. La formación en programación, bases de datos, redes, desarrollo de software y seguridad puede servir como punto de partida para especializarse en:</p>
+          <div class="outlook-tags"><span>Inteligencia artificial</span><span>Robótica</span><span>Ciberseguridad</span><span>Realidad virtual y aumentada</span><span>Blockchain</span><span>Ingeniería de software</span><span>Ciencia de datos</span><span>Computación en la nube</span><span>Redes y sistemas distribuidos</span><span>DevOps</span></div>
+        </div>
+        <div class="future-callout">
+          <div><p class="eyebrow">RECURSO DEL SITIO ORIGINAL</p><h3>12 Trabajos del Futuro</h3><p>Video sobre profesiones que podrían surgir o transformarse gracias a la inteligencia artificial y las nuevas tecnologías.</p></div>
+          <a class="button button-primary" href="https://www.youtube.com/watch?v=mX3J7TRI_D8" target="_blank" rel="noopener noreferrer">Ver video <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="interview-section section-shell section-pad" id="entrevista">
+      <div class="interview-card">
+        <div class="interview-visual">
+          <img class="interview-portrait" src="entrevista/cristobal.png" alt="Retrato de Cristóbal Humberto Arteaga Félix" width="352" height="463" loading="lazy">
+        </div>
+        <div class="interview-copy">
+          <h2>Entrevista a <span>Cristóbal Humberto Arteaga Félix</span></h2>
+          <p><a href="mailto:arteagacristobal029@gmail.com">arteagacristobal029@gmail.com</a></p>
+        </div>
+      </div>
+      <div class="interview-summary">
+        <h3>Resumen de la entrevista</h3>
+        <ul>
+          <li><strong>Trabajo actual.</strong> Cristóbal trabaja en Accenture en proyectos web con SAP Commerce y Java, y con Drupal y PHP. Su trabajo combina entender las necesidades de los clientes y convertir los requerimientos en código. Quiere avanzar hacia un rol de consultoría.</li>
+          <li><strong>Primer empleo y trayectoria.</strong> Empezó a buscar dónde hacer su residencia unos tres meses antes de terminar la carrera. Consiguió una oportunidad antes de cerrar el semestre y empezó dos semanas después de que terminó. Pasó de una beca inicial de tres meses a continuar en la misma firma, donde se formó en Salesforce y SAP Commerce. Al cabo de unos dos años y medio pasó a Accenture.</li>
+          <li><strong>Habilidades blandas.</strong> Destaca la capacidad de conversar con clientes y colegas y de explicar el valor de lo que uno sabe hacer, tanto en entrevistas de trabajo como en el día a día.</li>
+          <li><strong>Conocimientos técnicos.</strong> Recomienda dominar los fundamentos de programación para adaptarse a distintos lenguajes, aprender inglés y saber aplicar herramientas de inteligencia artificial.</li>
+          <li><strong>Mercado laboral.</strong> En sus proyectos observa que los clientes piden agentes de IA para automatizar tareas manuales, como generar reportes. Por eso considera que saber implementar estos agentes será cada vez más relevante.</li>
+        </ul>
+      </div>
+      <div class="interview-recordings">
+        <h3>Preguntas y respuestas</h3>
+        <ol class="future-jobs interview-audio-list">
+          <li class="future-job">
+            <span aria-hidden="true">1</span>
+            <div>
+              <h4 id="pregunta-1">¿En qué puesto trabajas y cómo es un día normal?</h4>
+              <audio controls preload="none" aria-labelledby="pregunta-1" src="entrevista/pregunta-1.ogg"></audio>
+              <h4 id="respuesta-1">Respuesta</h4>
+              <audio controls preload="none" aria-labelledby="respuesta-1" src="entrevista/respuesta-1.ogg"></audio>
+            </div>
+          </li>
+          <li class="future-job">
+            <span aria-hidden="true">2</span>
+            <div>
+              <h4 id="pregunta-2">¿Cuánto tardaste en encontrar tu primer empleo?</h4>
+              <audio controls preload="none" aria-labelledby="pregunta-2" src="entrevista/pregunta-2.ogg"></audio>
+              <h4 id="respuesta-2">Respuesta</h4>
+              <audio controls preload="none" aria-labelledby="respuesta-2" src="entrevista/respuesta-2.ogg"></audio>
+            </div>
+          </li>
+          <li class="future-job">
+            <span aria-hidden="true">3</span>
+            <div>
+              <h4 id="pregunta-3">¿Qué habilidades blandas necesitas en una empresa?</h4>
+              <audio controls preload="none" aria-labelledby="pregunta-3" src="entrevista/pregunta-3.ogg"></audio>
+              <h4 id="respuesta-3">Respuesta</h4>
+              <audio controls preload="none" aria-labelledby="respuesta-3" src="entrevista/respuesta-3.ogg"></audio>
+            </div>
+          </li>
+          <li class="future-job">
+            <span aria-hidden="true">4</span>
+            <div>
+              <h4 id="pregunta-4">¿Qué conocimientos técnicos debe tener un egresado de ISC?</h4>
+              <audio controls preload="none" aria-labelledby="pregunta-4" src="entrevista/pregunta-4.ogg"></audio>
+              <h4 id="respuesta-4">Respuesta</h4>
+              <audio controls preload="none" aria-labelledby="respuesta-4" src="entrevista/respuesta-4.ogg"></audio>
+            </div>
+          </li>
+          <li class="future-job">
+            <span aria-hidden="true">5</span>
+            <div>
+              <h4 id="pregunta-5">¿Cómo ha sido tu trayectoria profesional desde que egresaste?</h4>
+              <audio controls preload="none" aria-labelledby="pregunta-5" src="entrevista/pregunta-5.ogg"></audio>
+              <h4 id="respuesta-5">Respuesta</h4>
+              <audio controls preload="none" aria-labelledby="respuesta-5" src="entrevista/respuesta-5.ogg"></audio>
+            </div>
+          </li>
+          <li class="future-job">
+            <span aria-hidden="true">6</span>
+            <div>
+              <h4 id="pregunta-6">¿Hacia dónde se dirige el mercado laboral de ISC?</h4>
+              <audio controls preload="none" aria-labelledby="pregunta-6" src="entrevista/pregunta-6.ogg"></audio>
+              <h4 id="respuesta-6">Respuesta</h4>
+              <audio controls preload="none" aria-labelledby="respuesta-6" src="entrevista/respuesta-6.ogg"></audio>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contacto">
+      <div class="section-shell contact-inner">
+        <div><p class="eyebrow">06 / CONTACTO</p><h2>¿Tienes una idea?<br><span>Hablemos de ella.</span></h2><p class="contact-description">Si tienes dudas, necesitas orientación o quieres conocer más sobre los servicios, este espacio es para ti.</p></div>
+        <div class="contact-panel"><span class="contact-symbol">↗</span><h3>Conectemos</h3><p>Fabiola Arteaga Félix</p><br><p>    Correo Electrónico: </p><span class="contact-placeholder">LZ26020055@zacatecassur.tecnm.mx</span></div>
+      </div>
+    </section>
+    <section class="section-shell section-pad" id="referencias">
+      <div class="section-heading">
+        <h2>Referencias</h2>
+        <ul>
+          <li><a href="https://dulcemiel.my.canva.site/dahaq0k9tl4/">ISC Aprende + · Sitio original en Canva</a></li>
+          <li><a href="https://www.gartner.com/en/newsroom/press-releases/2026-09-15-gartner-unveils-top-strategic-predictions-for-2027-and-beyond">Gartner · Predicciones estratégicas para 2027 y años posteriores</a></li>
+          <li><a href="https://share.google/UHv8ltWG7ieS1F8yW">ISC Python · Programación y Análisis de Datos (SI716)</a></li>
+          <li><a href="https://share.google/APl1zIYNVTdkScG2n">Tecnológico Nacional de México · Tijuana</a></li>
+          <li><a href="https://www.youtube.com/watch?v=mX3J7TRI_D8">Profe Sang · 12 trabajos del futuro</a></li>
+          <li><a href="https://www.youtube.com/watch?v=iX_on3VxZzk">Ringa Tech · Tu primera red neuronal en Python y TensorFlow</a></li>
+          <li><a href="https://www.glassdoor.com.mx/Empleo/ingeniero-en-sistemas-computacionales-empleos-SRCH_KO0,37.htm">Glassdoor · Vacantes de ISC</a></li>
+          <li><a href="https://mx.indeed.com/q-trabajo-de-ingeniero-en-sistemas-computacionales-empleos.html">Indeed México · Vacantes de ISC</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-brand" href="#inicio">ISC Aprende <span>+</span></a><p><a href="#referencias">Referencias</a></p><span>© <span id="year"></span> ISC Aprende +</span></footer>
+</body>
+</html>

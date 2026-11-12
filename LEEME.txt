@@ -1,0 +1,20 @@
+ISC Aprende + — sitio web
+
+ARCHIVOS
+- index.html: estructura y contenido.
+- styles.css: diseño visual y adaptación a móviles.
+- script.js: menú móvil, navegación activa y buscador del glosario.
+
+CÓMO ABRIRLO
+1. Descarga y descomprime ISC_Aprende_Mas.zip.
+2. Abre la carpeta.
+3. Haz doble clic en index.html para visualizar el sitio en tu navegador.
+4. Para editarlo, abre la carpeta con Visual Studio Code.
+
+PERSONALIZACIÓN PENDIENTE
+- En la sección Contacto, agrega tu correo o redes sociales.
+- En Entrevista, incorpora el audio y el resumen cuando estén disponibles.
+- Puedes reemplazar el enlace de YouTube por otro video si lo necesitas.
+
+El sitio no necesita instalación ni servidor para visualizarse localmente.
+La tipografía se carga desde Google Fonts; si no hay conexión, se utilizarán fuentes alternativas.
